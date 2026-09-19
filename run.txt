@@ -1,8 +1,0 @@
-docker run --rm --network=host -e SONAR_HOST_URL="http://localhost:9001" -v "${PWD}:/usr/src" sonarsource/sonar-scanner-cli "-Dsonar.projectKey=sast-workshop-idn" "-Dsonar.projectVersion=1.0" "-Dsonar.sourceEncoding=UTF-8" "-Dsonar.token=sqp_239bb911faa415bb85a732b2bfec80cb926a353b" "-Dsonar.projectBaseDir=/usr/src" "-Dsonar.sources=."
-
-
-
-yang perlu di ubah
-1. port sonar host
-2. projectKey
-3. token
